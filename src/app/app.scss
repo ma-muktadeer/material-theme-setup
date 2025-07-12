@@ -1,0 +1,35 @@
+.app-container {
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+
+  &.light-theme {
+    background-color: #f5f5f5;
+    color: #212121;
+  }
+
+  &.dark-theme {
+    background-color: #303030;
+    color: #ffffff;
+  }
+}
+
+.toolbar-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.button-row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
